@@ -73,6 +73,36 @@ These datasets were merged to create a unified dataset for analysis.
 
 ---
 
+## 📊 Visualizations
+
+Below are the key visualizations generated from the analysis.
+
+---
+
+### 1️⃣ Order Trends Over Time
+![Order Trends](Food_delivery_data_analysis/output_plots/daily_monthly_growth_quarterly_trends.png)
+
+---
+
+### 2️⃣ User Behavior Patterns
+![User Behavior](Food_delivery_data_analysis/output_plots/user_behavior.png)
+
+---
+
+### 3️⃣ City-wise and Cuisine-wise Performance
+![City & Cuisine](Food_delivery_data_analysis/output_plots/city_cuisine_performance_dashboard.png)
+
+---
+
+### 4️⃣ Membership Impact (Gold vs Regular)
+![Membership Impact](Food_delivery_data_analysis/output_plots/membership_impact_dashboard.png)
+
+---
+
+### 5️⃣ Revenue Distribution and Seasonality
+![Revenue & Seasonality](Food_delivery_data_analysis/output_plots/revenue_distribution_seasonality.png)
+
+
 ## ▶️ How to Run This Project
 
 1. Clone the repository:
@@ -83,7 +113,12 @@ cd food-delivery-data-analysis
 3. Open the notebook:
 jupyter notebook food_delivery_analysis.ipynb
 
-5. Run all cells to reproduce the analysis.
+
+5. Update file paths in the notebook if required:
+final_df = pd.read_csv("data/orders.csv")
+final_df = pd.read_json("data/users.json")
+
+6. Run all cells to reproduce the analysis.
 
 ---
 
@@ -92,11 +127,3 @@ jupyter notebook food_delivery_analysis.ipynb
 **Atharv Muttepawar**    
 
 ---
-
-## 📊 Demo Visualizations
-
-### 1️⃣ Monthly Order Trends
-![Monthly Orders](Food_delivery_data_analysis/output_plots/city_cuisine_performance_dashboard.png)
-
-### 2️⃣ City-wise & Cuisine-wise Performance
-![City Cuisine Performance]()
