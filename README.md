@@ -92,3 +92,11 @@ jupyter notebook food_delivery_analysis.ipynb
 **Atharv Muttepawar**    
 
 ---
+
+## 📊 Demo Visualizations
+
+### 1️⃣ Monthly Order Trends
+![Monthly Orders](Food_delivery_data_analysis/output_plots/city_cuisine_performance_dashboard.png)
+
+### 2️⃣ City-wise & Cuisine-wise Performance
+![City Cuisine Performance]()
