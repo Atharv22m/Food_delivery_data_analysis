@@ -2,8 +2,6 @@
 
 This project analyzes food delivery data to extract meaningful business insights using Python and data visualization techniques.
 
-It was developed as part of the **Innomatics Hackathon** and focuses on understanding customer behavior and business performance.
-
 ---
 
 ## 🎯 Project Objectives
@@ -20,24 +18,24 @@ The main goals of this analysis are:
 
 ## 📁 Project Structure
 
+```text
 food-delivery-data-analysis/
 │
 ├── data/
-│ ├── final_food_delivery_dataset.xls
-│ ├── users.json
-| ├── orders.csv
-│ └── restaurants.sql
+│   ├── final_food_delivery_dataset.xls
+│   ├── users.json
+│   └── orders.csv
 │
 ├── output_plots/
-│ ├── daily_monthly_growth_quarterly_trends.png
-│ ├── user_behavior.png
-│ ├── city_cuisine_performance_dashboard.png
-│ ├── membership_impact_dashboard.png
-│ └── revenue_distribution_seasonality.png
+│   ├── daily_monthly_growth_quarterly_trends.png
+│   ├── user_behavior.png
+│   ├── city_cuisine_performance_dashboard.png
+│   ├── membership_impact_dashboard.png
+│   └── revenue_distribution_seasonality.png
 │
 ├── food_delivery_analysis.ipynb
 └── README.md
-
+```
 
 ---
 
@@ -96,6 +94,7 @@ Below are the key visualizations generated from the analysis.
 
 ### 4️⃣ Membership Impact (Gold vs Regular)
 ![Membership Impact](Food_delivery_data_analysis/output_plots/membership_impact_dashboard.png)
+![Membership Impact](Food_delivery_data_analysis/output_plots/city_revenue_by_membership.png)
 
 ---
 
