@@ -71,36 +71,12 @@ These datasets were merged to create a unified dataset for analysis.
 
 ---
 
-## 📊 Visualizations
+## 📊 Demo Visualizations
 
-Below are the key visualizations generated from the analysis.
-
----
-
-### 1️⃣ Order Trends Over Time
-![Order Trends](Food_delivery_data_analysis/output_plots/daily_monthly_growth_quarterly_trends.png)
+### 1️⃣ City-wise & Cuisine-wise Performance
+![City Cuisine Performance](Food_delivery_data_analysis/output_plots/city_cuisine_performance_dashboard.png)
 
 ---
-
-### 2️⃣ User Behavior Patterns
-![User Behavior](Food_delivery_data_analysis/output_plots/user_behavior.png)
-
----
-
-### 3️⃣ City-wise and Cuisine-wise Performance
-![City & Cuisine](Food_delivery_data_analysis/output_plots/city_cuisine_performance_dashboard.png)
-
----
-
-### 4️⃣ Membership Impact (Gold vs Regular)
-![Membership Impact](Food_delivery_data_analysis/output_plots/membership_impact_dashboard.png)
-![Membership Impact](Food_delivery_data_analysis/output_plots/city_revenue_by_membership.png)
-
----
-
-### 5️⃣ Revenue Distribution and Seasonality
-![Revenue & Seasonality](Food_delivery_data_analysis/output_plots/revenue_distribution_seasonality.png)
-
 
 ## ▶️ How to Run This Project
 
@@ -123,6 +99,6 @@ final_df = pd.read_json("data/users.json")
 
 ## 👤 Author
 
-**Atharv Muttepawar**    
+**Atharv Muttepawar**
 
 ---
